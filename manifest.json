@@ -1,0 +1,28 @@
+{
+    "name": "web WhatsApp filter",
+    "version": "1.0",
+    "description": "Filtro para mostrar sólo ciertos contactos en la versión web de WhatsApp.",
+
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/web_wa_filter16.png",
+        "32": "images/web_wa_filter32.png",
+        "48": "images/web_wa_filter48.png",
+        "128": "images/web_wa_filter128.png"
+      }
+    },
+
+    "icons": {
+      "16": "images/web_wa_filter16.png",
+      "32": "images/web_wa_filter32.png",
+      "48": "images/web_wa_filter48.png",
+      "128": "images/web_wa_filter128.png"
+    },
+    "manifest_version": 2
+  }

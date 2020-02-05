@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <style>
+       body{
+         min-width: 500px;
+         min-height: 500px;
+       }
+       input {
+         height: 30px;
+         width: 100%;
+         outline: none;
+       }
+       #contacts_list{
+         padding: 10px 20px;
+       }
+
+       /* Ocultar en la web */
+       #pane-side > div > div > div > div{
+         display: none;
+       }
+     </style>
+   </head>
+   <body>
+     <h1>Lista de Conctactos Visibles</h1>
+     <form class="" action="#" method="post">
+       <input type="text" name="wa_contact" value="" placeholder="Escribe el nombre del contacto o * y la palabra a filtrar">
+     </form>
+     <div id="contacts_list">
+
+     </div>
+
+    <script src="popup.js"></script>
+   </body>
+ </html>
